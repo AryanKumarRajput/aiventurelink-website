@@ -6,31 +6,31 @@ import Icon from "@/components/ui/AppIcon";
 const steps = [
   {
     number: "01",
-    icon:   "DocumentTextIcon",
-    title:  "Submit Requirement",
-    desc:   "Enterprise submits a structured problem statement along with industry, budget, and timeline parameters through our secure intake form.",
+    icon: "DocumentTextIcon",
+    title: "Submit Requirement",
+    desc: "Business shares problem statement, objectives, timeline, and constraints through our structured intake process.",
     detail: "Takes under 5 minutes",
   },
   {
     number: "02",
-    icon:   "MagnifyingGlassIcon",
-    title:  "Requirement Analysis",
-    desc:   "Our team reviews the submission, clarifies scope, and categorizes the requirement by domain, complexity, and strategic fit.",
+    icon: "MagnifyingGlassIcon",
+    title: "Requirement & Scope Design",
+    desc: "We analyze the use case, define solution scope, and identify the AI capabilities required for successful implementation.",
     detail: "Response within 24 hours",
   },
   {
     number: "03",
-    icon:   "SparklesIcon",
-    title:  "Partner Matching",
-    desc:   "Curated AI solution providers are shortlisted based on domain expertise, enterprise experience, and capability alignment.",
-    detail: "3–5 matched providers",
+    icon: "SparklesIcon",
+    title: "Solution Architecture",
+    desc: "AIVentureLink selects and orchestrates the right AI technologies and specialized delivery partners aligned to the project.",
+    detail: "Multi-vendor orchestration",
   },
   {
     number: "04",
-    icon:   "ShieldCheckIcon",
-    title:  "Execution Oversight",
-    desc:   "AIVentureLink facilitates introductions, manages communication, and provides oversight to ensure quality delivery throughout engagement.",
-    detail: "End-to-end support",
+    icon: "ShieldCheckIcon",
+    title: "Managed Delivery",
+    desc: "We coordinate vendors, manage milestones, and ensure quality execution while providing a single point of accountability.",
+    detail: "End-to-end management",
   },
 ];
 
@@ -56,19 +56,19 @@ export default function HowItWorksSection() {
       <div className="container-wide relative z-10">
         {/* Heading */}
         <div className="text-center mb-16 reveal-hidden">
-          <span className="tag-badge mb-4 inline-block">Simple Process</span>
+          <span className="tag-badge mb-4 inline-block">Structured Delivery Process</span>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-aivl-text-primary mb-4">
-            How <span className="gradient-text">AIVentureLink</span> Works
+            How <span className="gradient-text">AIVentureLink</span> Delivers
           </h2>
           <p className="max-w-xl mx-auto text-aivl-text-secondary text-lg">
-            From requirement to execution — a structured, transparent process
-            designed to remove friction from enterprise AI adoption.
+            From problem definition to implementation — a structured approach where we design,
+            orchestrate and manage AI delivery for your business.
           </p>
         </div>
 
         {/* Steps */}
         <div className="relative">
-          {/* Connector line (desktop) */}
+          {/* Connector line */}
           <div className="hidden lg:block absolute top-[3.25rem] left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-transparent via-aivl-blue/30 to-transparent" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -77,7 +77,6 @@ export default function HowItWorksSection() {
                 key={step.number}
                 className={`reveal-hidden delay-${(i + 1) * 100} relative flex flex-col items-center text-center p-6 rounded-2xl glass glow-border card-lift`}
               >
-                {/* Step number */}
                 <div className="relative mb-5">
                   <div className="w-14 h-14 rounded-2xl bg-aivl-blue/15 border border-aivl-blue/30 flex items-center justify-center animate-pulse-glow">
                     <Icon name={step.icon as "DocumentTextIcon"} size={24} className="text-aivl-blue-glow" />

@@ -5,36 +5,36 @@ import Icon from "@/components/ui/AppIcon";
 
 const categories = [
   {
-    icon:  "RocketLaunchIcon",
-    title: "AI Startups",
-    desc:  "Early-stage and growth-stage AI product companies with specialized domain expertise.",
+    icon: "RocketLaunchIcon",
+    title: "Specialized AI Studios",
+    desc: "Domain-focused AI teams delivering applied solutions across automation, GenAI, analytics, and vertical AI.",
     count: "40+",
   },
   {
-    icon:  "BuildingOffice2Icon",
-    title: "Enterprise Vendors",
-    desc:  "Established AI software and services companies with proven enterprise deployments.",
+    icon: "BuildingOffice2Icon",
+    title: "Enterprise Delivery Vendors",
+    desc: "Experienced AI implementation companies capable of building and deploying production-grade solutions.",
     count: "25+",
   },
   {
-    icon:  "ServerStackIcon",
-    title: "Infrastructure Partners",
-    desc:  "Cloud, MLOps, data pipeline, and compute providers powering AI workloads.",
+    icon: "ServerStackIcon",
+    title: "Technology & Infrastructure",
+    desc: "Cloud, data, MLOps, and tooling partners that enable scalable and reliable AI deployments.",
     count: "15+",
   },
   {
-    icon:  "AcademicCapIcon",
-    title: "Innovation Ecosystems",
-    desc:  "Accelerators, incubators, research institutions, and government AI initiatives.",
+    icon: "AcademicCapIcon",
+    title: "Research & Innovation",
+    desc: "Innovation labs and research collaborators supporting advanced use cases and emerging AI capabilities.",
     count: "20+",
   },
 ];
 
 const trustSignals = [
-  { value: "6",    label: "Solution Domains" },
-  { value: "100+", label: "Vetted Partners" },
-  { value: "34%",  label: "Faster Deployment" },
-  { value: "73%",  label: "Partnership Match Rate" },
+  { value: "6", label: "Implementation Domains" },
+  { value: "100+", label: "Delivery Partners" },
+  { value: "34%", label: "Faster Deployment" },
+  { value: "End-to-End", label: "Managed Delivery" },
 ];
 
 export default function EcosystemSection() {
@@ -58,13 +58,13 @@ export default function EcosystemSection() {
 
         {/* Heading */}
         <div className="text-center mb-16 reveal-hidden">
-          <span className="tag-badge mb-4 inline-block">Our Ecosystem</span>
+          <span className="tag-badge mb-4 inline-block">Delivery Network</span>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-aivl-text-primary mb-4">
-            A Trusted Network of <span className="gradient-text">AI Partners</span>
+            The Infrastructure Behind <span className="gradient-text">AI Delivery</span>
           </h2>
           <p className="max-w-xl mx-auto text-aivl-text-secondary text-lg">
-            Four distinct partner categories form the backbone of the AIVentureLink ecosystem,
-            ensuring every enterprise finds the right AI solution.
+            AIVentureLink orchestrates a multi-layer delivery network so businesses can implement
+            complex AI solutions without managing multiple vendors.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export default function EcosystemSection() {
           ))}
         </div>
 
-        {/* Trust signals bar */}
+        {/* Trust signals */}
         <div className="reveal-hidden glass rounded-2xl p-6 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 border border-aivl-blue/15">
           {trustSignals.map((sig, i) => (
             <div key={i} className="flex flex-col items-center text-center">

@@ -8,22 +8,21 @@ import HowItWorksSection from "./components/HowItWorksSection";
 import CtaBannerSection from "./components/CtaBannerSection";
 
 export const metadata: Metadata = {
-  title: "AIVentureLink — Connecting Enterprises with Trusted AI Solutions",
+  title: "AIVentureLink — Managed AI Implementation Partner",
   description:
-    "AIVentureLink is a curated AI solutions brokerage operated by Zestova Private Limited. We connect enterprises with vetted AI solution providers across 6 specialized domains.",
+    "AIVentureLink designs, manages and delivers AI solutions by orchestrating specialized AI partners. We help businesses implement AI across multiple domains with a single point of accountability.",
   keywords: [
-    "AI solutions",
-    "enterprise AI",
-    "AI brokerage",
-    "AI vendors",
-    "Zestova",
+    "AI implementation",
+    "AI project management",
+    "AI orchestration",
+    "enterprise AI solutions",
+    "AI integration",
     "AIVentureLink",
-    "AI adoption",
   ],
   openGraph: {
-    title: "AIVentureLink — Connecting Enterprises with Trusted AI Solutions",
+    title: "AIVentureLink — Managed AI Implementation Partner",
     description:
-      "Curated AI solutions brokerage connecting enterprises with vetted AI providers across 6 domains.",
+      "We orchestrate AI partners to design, manage and deliver end-to-end AI solutions for businesses.",
     type: "website",
   },
 };
